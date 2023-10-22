@@ -9,7 +9,7 @@ def predict(input, history=[]):
         input+tokenizer.eos_token, return_tensors="pt"
     )
     
-    bot_input_ids = torch.cat([torch.LongTensor(history), new_use_input_ids], dims=-1)
+    bot_input_ids = torch.cat([torch.LongTensor(history), new_user_input_ids], dims=-1)
     
     history = model.generate(
         bot_input_ids, max_length=4000, pad_token_id=tokenizer.eos_token_id

@@ -10,8 +10,8 @@ $ pip install -r requirements.txt
 ## Run program
 ### Front end
 ```
-$ cd frontend
-$ streamlit run app.py
+(p4ds_team2) $ cd frontend
+(p4ds_team2) $ streamlit run app.py
 
   You can now view your Streamlit app in your browser.
 
@@ -21,8 +21,8 @@ $ streamlit run app.py
 
 ### Backend
 ```
-$ cd backend
-$ python main.py
+(p4ds_team2) $ cd backend
+(p4ds_team2) $ python main.py
 
 
  * Serving Flask app 'main'
